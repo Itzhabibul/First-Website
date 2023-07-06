@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color:black;
+    color: white;
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin: 20px;
+    padding: 5px;
+}
+.item:hover{
+    color: yellow;
+   cursor: pointer;
+}
+.logo-photo{
+    height: 100px;
+    width: 150px;
+}
+.banner-img{
+    height: 250px;
+    width: 150px;
+
+}
+.banner-container{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./logo/Fondo\ de\ Pantalla\ Batman.jfif");
+    
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(233, 9, 215);
+}
+.ppp{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(246, 245, 250);
+}
+.btn{
+    padding: 10px 15px;
+    background-color: red;
+    color: rgb(188, 223, 12);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    color:black;
+   cursor: pointer;
+}
